@@ -1,0 +1,24 @@
+.starter{
+    background-color: bisque;
+    margin: 20px;
+    padding: 20px;
+}
+.heading-spacer{
+ 
+
+    flex: 1 1 auto;
+}
+
+.mat-mdc-form-field {
+
+  width: 100%;
+}
+  .table{
+    width:85%;
+
+   margin: 0 auto;
+    
+}
+button{
+   margin-right:10px;
+}

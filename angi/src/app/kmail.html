@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Roles</title>
+    </head>
+    
+        <body class="starter" id="starter">
+
+    <input type="text" class="form-control m-2 p-3 col-md-5" [(ngModel)]="title" >
+    <h1 [style.backgroundColor]=" highlight ? '' : '#EEE'">{{title}} </h1>
+   
+
+
+
+    <app-items [momo]="data"></app-items>
+
+
+
+<div *ngFor="for let item of value">
+
+ 
+      <div *ngIf="item>10; then big else small"></div>
+    
+    
+    <ng-template #big><div  class="container  display-4 card bg-success text-light" (click)="makeit(item)">{{item}} / {{summe}}</div> </ng-template>
+    <ng-template #small><div  class="container display-5 card bg-info text-danger">{{item}}</div> </ng-template>
+  </div>
+  
+</body>
+
+</html>
+

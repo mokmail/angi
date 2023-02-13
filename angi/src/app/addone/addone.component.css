@@ -1,0 +1,11 @@
+.row{
+    display: flex;
+    gap: 20px;
+
+}
+   .date {
+
+
+        width: 100%;
+    
+}
